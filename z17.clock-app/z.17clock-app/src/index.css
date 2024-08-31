@@ -1,0 +1,25 @@
+body{
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/240/296/small_2x/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px, 0px;
+}
+.clock{
+  color : white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px, 3px 5px, black;
+  text-align: center;
+}
