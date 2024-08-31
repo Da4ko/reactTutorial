@@ -1,0 +1,15 @@
+import {useContext}  from 'react';
+import {UserContext} from './MyComponent.jsx';
+
+function MyComponent3(){
+    	
+    const user = useContext(UserContext);
+
+    return(<div className='box'>
+
+        <h1>ComponentD</h1>
+        <h2>Bye {user}</h2>
+     </div>)
+}
+
+export default MyComponent3 
